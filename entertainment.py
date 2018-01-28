@@ -42,7 +42,9 @@ conan = media.Movie('Conan the Barbarian',
                     'http://bit.ly/2DJlNow',
                     'https://www.youtube.com/watch?v=xwdYd_RdLCQ')
 
+#create list of movies information based on instances created above
 favorite_movies = [aliens, princess_bride, the_matrix,
                    holy_grail, iron_man, conan]
 
+#execute code to create html web page based on list of movies
 fresh_tomatoes.open_movies_page(favorite_movies)
